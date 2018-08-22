@@ -1,0 +1,182 @@
+
+.pageheader {
+	h1 {
+		margin: 15px 0 0 0;
+	}
+	// MobileDocのデザインに合わせて2文字目を赤色にする
+	h1 span:nth-child(2) {
+		color: #cc0033;
+	}
+	// webアイコン
+	h1 i {
+		color: rgba(204,0,51,0.3);
+	}
+	hr {
+		margin: 0;
+		border: 0;
+		width: 1024px;
+		height: 4px;
+		background-color: #690a10;
+	}
+	table {
+		border-collapse: collapse;
+		td {
+			padding: 0;
+			width: 200px;
+			height: 66px;
+			background-color: #f8f6e9;
+			text-align: center;
+			// 文字色
+			a {
+				text-decoration: none;
+				color: #690a10;
+			}	
+		}
+		// 1024px幅を背景色で塗るため空tdでサイズ調整
+		td:last-child {
+		width: 424px;
+		}
+	}
+	
+}
+
+.markdown {
+
+	font-family: "メイリオ", sans-serif;
+	font-size: 14px;
+	margin: 10px 12px 10px 12px;
+	width: 1000px;
+	line-height: 25px;
+	word-wrap: break-word;
+
+	img {
+		margin: 10px 0 10px 100px;
+		max-width: 200%;
+		max-height: 200%;
+	}
+	a {
+		color: #4080D0;
+		text-decoration: none;
+	}
+	a:focus {
+		outline: 1px solid -webkit-focus-ring-color;
+		outline-offset: -1px;
+	}
+	hr {
+		border: 0;
+		height: 2px;
+		border-bottom: 2px solid;
+	}
+	p {
+		margin: 0 50px 0 50px;
+	}
+	blockquote {
+		margin: 10px 50px 30px 50px;
+		padding: 10px 6px 10px 6px;
+		background: rgba(127, 127, 127, 0.1);
+		p {
+			margin: 0 20px 0 20px;
+		}
+	}
+	h1 {
+		margin: 30px 10px 30px 10px;
+		padding-bottom: 0.3em;
+		line-height: 1.2;
+		border-bottom-width: 1px;
+		border-bottom-style: solid;
+		font-weight: bold;
+	}
+	h2 {
+		margin: 30px 30px 30px 30px;		
+		padding: 5px 0 0 10px;
+		border-left: 4px #cc0033 solid;
+		border-bottom: 1px #cc0033 solid;
+		font-weight: bold;
+	}
+	h3 {
+		margin: 30px 30px 30px 30px;		
+		font-weight: bold;
+	}
+	a:hover {
+		color: #4080D0;
+		text-decoration: underline;
+	}
+	ul, ol {
+		li {
+			margin: 10px 50px 10px 60px;
+			padding: 0 0 0 10px;
+		}		
+	}
+	table {
+		border-collapse: collapse;
+		margin: 30px 50px 30px 80px;
+		thead {
+			tr {
+				th{
+					padding: 10px 10px 10px 10px;
+					text-align: center;
+					border-color: rgba(0, 0, 0, 0.69);
+					border-bottom: 1px solid;			
+				}
+			}
+		}
+
+		tbody {
+			tr {
+				td {
+					padding: 10px 10px 10px 10px;					
+					border-top: 1px solid;
+					border-color: rgba(0, 0, 0, 0.18);			
+				}
+
+			}
+		}
+	}
+
+}
+
+.pagefooter {
+	margin: 50px 0 0 0;
+
+	.hr1 {
+		margin: 0;
+		border: 0;
+		width: 1024px;
+		height: 8px;
+		background-color: #f8f6e9;
+	}
+	.hr2 {
+		margin: 0;
+		border: 0;
+		width: 1024px;
+		height: 2px;
+		background-color: #690a10;
+	}
+	
+	table {
+		border-collapse: collapse;
+
+		td {
+			padding: 0;
+			width: 150px;
+			height: 40px;
+			background-color: #f8f6e9;
+			text-align: center;
+			font-size: 0.8em;
+		}
+		td:last-child {
+			width: 574px;
+		}
+		a {
+			text-decoration: none;
+			color: #690a10;
+		}
+		.copyright {
+			padding-left: 8px;
+			text-align: left;
+			color: #ad4b58;
+			font-size: 0.6em;
+		}
+	}
+
+}
